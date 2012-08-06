@@ -8,7 +8,7 @@ if (Meteor.is_client) {
   Meteor.startup(function () {
     Meemoo.setInfo({
       title: "tunnel",
-      author: "automata.cc",
+      author: "automata",
       description: "distributed tunnel based on Meteor"
     }).addInputs({
       x: {
